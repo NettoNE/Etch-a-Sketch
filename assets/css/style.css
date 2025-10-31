@@ -1,0 +1,62 @@
+/* elements style */
+
+/* colors */
+
+.dark-background {
+    background-color: #232526;
+}
+
+/* buttons */
+
+.btn {
+    color: #efeeee;
+    background-color: #0e1111;
+    border: 2px solid #2c2c2c;
+
+    padding: 15px 30px;
+    font-weight: 400;
+
+    transition: all 0.4s ease;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: #666666;
+    background-color: #292929;
+    outline: none;
+}
+
+/* input */
+
+.input {
+    color: #efeeee;
+    background-color: #0e1111;
+    border: 2px solid #2c2c2c;
+
+    padding: 15px 30px;
+    font-weight: 400;
+
+    transition: all 0.4s ease;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #666666;
+    background-color: #292929;
+    outline: none;
+}
+
+/* hide number input arrows */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

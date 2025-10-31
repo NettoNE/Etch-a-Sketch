@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+}
+
+.div-block {
+    border: 1px solid #858585;
+}
+
+.menu-settings {
+    display: flex;
+    gap: 10px;
+}
