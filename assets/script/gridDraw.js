@@ -41,19 +41,16 @@ export default function (divContainer, gridInputSize) {
 
 function gridSizeCheck(gridSize) {
 
-    if (typeof gridSize !== 'number' || Number.isNaN(gridSize)) {
+    if (typeof gridSize !== "number" || Number.isNaN(gridSize)) {
         return false;
     }
 
-    if (gridSize <= 0) {
-        return false;
-    }
-
-    if (gridSize > 100) {
+    if (gridSize < 1 || gridSize > 100) {
         return false;
     }
 
     return true;
 
 }
+
 
